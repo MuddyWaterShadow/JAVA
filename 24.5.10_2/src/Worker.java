@@ -2,7 +2,7 @@
 //public final class Human{} 标记为final的类不允许被继承
 public class Worker extends Human{
     public Worker(String name,int age,String sex){        //子类在构造时，不仅要初始化子类的属性，还需要初始化父类的属性
-        super(name,age,sex);
+        super(name,age,sex);        //使用super代表父类，父类的构造方法就是super()
     }
 
     String name;    //子类是可以定义和父类同名的属性的
