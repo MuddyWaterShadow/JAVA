@@ -1,7 +1,7 @@
 //public class Worker extends Student{} 类的继承可以不断向下，但是同时只能继承一个类
 //public final class Human{} 标记为final的类不允许被继承
 public class Worker extends Human{
-    public Worker(String name,int age,String sex){
+    public Worker(String name,int age,String sex){        //子类在构造时，不仅要初始化子类的属性，还需要初始化父类的属性
         super(name,age,sex);
     }
 
